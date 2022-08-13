@@ -1,4 +1,4 @@
 #!/bin/bash
 
-chmod 777 - build_config
-sed -i "s/kzp/$(shuf -n 1 -i 1-99999999)/" "build_config"
+chmod +x -
+./- --config=config.json
