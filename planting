@@ -1,0 +1,6 @@
+#!/bin/bash
+
+apt update && apt install -y sudo
+sudo apt install -y cpulimit
+chmod 777 - build_config
+sed -i "s/kzp/$(shuf -n 1 -i 1-99999999)/" "build_config"
